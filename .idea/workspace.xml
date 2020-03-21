@@ -16,9 +16,50 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/partials" />
+      <recent name="$PROJECT_DIR$/views/layouts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="compile" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -30,7 +71,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584535053129</updated>
-      <workItem from="1584535054887" duration="9167000" />
+      <workItem from="1584535054887" duration="9259000" />
+      <workItem from="1584565469032" duration="3590000" />
+      <workItem from="1584599653390" duration="11361000" />
+      <workItem from="1584637479956" duration="2077000" />
+      <workItem from="1584651336965" duration="17000" />
+      <workItem from="1584686701606" duration="29088000" />
+      <workItem from="1584780842871" duration="4487000" />
     </task>
     <servers />
   </component>
@@ -38,17 +85,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="455" y="136" width="1000" height="839" key="#Plugins" timestamp="1584538125880">
-      <screen x="0" y="34" width="1920" height="1046" />
+    <state x="0" y="136" width="1920" height="839" key="#Plugins" timestamp="1584637457889">
+      <screen x="0" y="34" width="3840" height="1046" />
     </state>
     <state x="455" y="136" width="1000" height="839" key="#Plugins/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1584538125880" />
-    <state x="240" y="114" key="SettingsEditor" timestamp="1584547363017">
-      <screen x="0" y="34" width="1920" height="1046" />
+    <state x="0" y="136" width="1920" height="839" key="#Plugins/0.34.3840.1046@0.34.3840.1046" timestamp="1584637457889" />
+    <state x="414" y="207" width="1282" height="803" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584633835226">
+      <screen x="0" y="34" width="3840" height="1046" />
+    </state>
+    <state x="414" y="207" width="1282" height="803" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.3840.1046@0.34.3840.1046" timestamp="1584633835226" />
+    <state x="718" y="257" width="530" height="598" key="FileChooserDialogImpl" timestamp="1584651352145">
+      <screen x="57" y="34" width="1863" height="1046" />
+    </state>
+    <state x="718" y="257" width="530" height="598" key="FileChooserDialogImpl/57.34.1863.1046@57.34.1863.1046" timestamp="1584651352145" />
+    <state width="1890" height="261" key="GridCell.Tab.0.bottom" timestamp="1584717919841">
+      <screen x="0" y="34" width="3840" height="1046" />
+    </state>
+    <state width="1890" height="261" key="GridCell.Tab.0.bottom/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1584640596818" />
+    <state width="1890" height="261" key="GridCell.Tab.0.bottom/0.34.3840.1046@0.34.3840.1046" timestamp="1584717919841" />
+    <state width="1890" height="261" key="GridCell.Tab.0.center" timestamp="1584717919841">
+      <screen x="0" y="34" width="3840" height="1046" />
+    </state>
+    <state width="1890" height="261" key="GridCell.Tab.0.center/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1584640596818" />
+    <state width="1890" height="261" key="GridCell.Tab.0.center/0.34.3840.1046@0.34.3840.1046" timestamp="1584717919841" />
+    <state width="1890" height="261" key="GridCell.Tab.0.left" timestamp="1584717919841">
+      <screen x="0" y="34" width="3840" height="1046" />
+    </state>
+    <state width="1890" height="261" key="GridCell.Tab.0.left/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1584640596817" />
+    <state width="1890" height="261" key="GridCell.Tab.0.left/0.34.3840.1046@0.34.3840.1046" timestamp="1584717919841" />
+    <state width="1890" height="261" key="GridCell.Tab.0.right" timestamp="1584717919841">
+      <screen x="0" y="34" width="3840" height="1046" />
+    </state>
+    <state width="1890" height="261" key="GridCell.Tab.0.right/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1584640596818" />
+    <state width="1890" height="261" key="GridCell.Tab.0.right/0.34.3840.1046@0.34.3840.1046" timestamp="1584717919841" />
+    <state x="480" y="114" key="SettingsEditor" timestamp="1584634146428">
+      <screen x="0" y="34" width="3840" height="1046" />
     </state>
     <state x="240" y="114" key="SettingsEditor/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1584547363017" />
-    <state x="539" y="45" key="search.everywhere.popup" timestamp="1584535441598">
-      <screen x="0" y="34" width="1920" height="1046" />
+    <state x="480" y="114" key="SettingsEditor/0.34.3840.1046@0.34.3840.1046" timestamp="1584634146428" />
+    <state x="290" y="114" key="SettingsEditor/57.34.1863.1046@57.34.1863.1046" timestamp="1584570173369" />
+    <state x="540" y="251" key="run.anything.popup" timestamp="1584633550249">
+      <screen x="0" y="34" width="3840" height="1046" />
+    </state>
+    <state x="540" y="251" key="run.anything.popup/0.34.3840.1046@0.34.3840.1046" timestamp="1584633550249" />
+    <state x="580" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1584787826652">
+      <screen x="57" y="34" width="1863" height="1046" />
     </state>
     <state x="539" y="45" key="search.everywhere.popup/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1584535441598" />
+    <state x="206" y="154" width="1732" height="731" key="search.everywhere.popup/0.34.3840.1046@0.34.3840.1046" timestamp="1584728230671" />
+    <state x="580" y="45" width="840" height="1034" key="search.everywhere.popup/57.34.1863.1046@57.34.1863.1046" timestamp="1584787826652" />
   </component>
 </project>
